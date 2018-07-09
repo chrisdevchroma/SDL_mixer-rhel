@@ -12,6 +12,7 @@ Source0:	http://www.libsdl.org/projects/%{name}/release/%{name}-%{version}.tar.g
 Patch0:         SDL_mixer-MikMod-1.patch
 Patch1:         SDL_mixer-MikMod-2.patch
 
+BuildRequires:  gcc
 BuildRequires:	SDL-devel >= 1.2.10 
 BuildRequires:	libvorbis-devel
 BuildRequires:	flac-devel
