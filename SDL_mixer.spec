@@ -71,14 +71,12 @@ find $RPM_BUILD_ROOT -name '*.la' -exec rm -f {} ';'
 %postun -p /sbin/ldconfig
 
 %files
-%defattr(-,root,root,-)
 %doc README CHANGES COPYING
 %{_bindir}/playmus
 %{_bindir}/playwave
 %{_libdir}/lib*.so.*
 
 %files devel
-%defattr(-,root,root,-)
 %{_libdir}/lib*.so
 %{_libdir}/pkgconfig/%{name}.pc
 %{_includedir}/SDL
