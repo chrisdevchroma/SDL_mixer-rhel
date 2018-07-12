@@ -1,6 +1,6 @@
 Name:		SDL_mixer
 Version:	1.2.12
-Release: 	15%{?dist}
+Release: 	16%{?dist}
 Summary:	Simple DirectMedia Layer - Sample Mixer Library
 
 Group:		System Environment/Libraries
@@ -82,6 +82,9 @@ find $RPM_BUILD_ROOT -name '*.la' -exec rm -f {} ';'
 %{_includedir}/SDL
 
 %changelog
+* Thu Jul 12 2018 Fedora Release Engineering <releng@fedoraproject.org> - 1.2.12-16
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_29_Mass_Rebuild
+
 * Wed Feb 07 2018 Fedora Release Engineering <releng@fedoraproject.org> - 1.2.12-15
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_28_Mass_Rebuild
 
