@@ -3,7 +3,6 @@ Version:	1.2.12
 Release: 	16%{?dist}
 Summary:	Simple DirectMedia Layer - Sample Mixer Library
 
-Group:		System Environment/Libraries
 License:	LGPLv2
 URL:		http://www.libsdl.org/projects/SDL_mixer/
 Source0:	http://www.libsdl.org/projects/%{name}/release/%{name}-%{version}.tar.gz
@@ -30,7 +29,6 @@ MikMod MOD, Timidity MIDI and Ogg Vorbis libraries.
 
 %package devel
 Summary:	Development files for %{name}
-Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 Requires:	SDL-devel >= 1.2.10
 Requires:	libvorbis-devel
